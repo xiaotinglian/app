@@ -30,7 +30,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: app-secret
-                  key: db-pass
+                  key: db_pass
       nodeSelector:
         zone: us-east-1a
       volumes:
